@@ -1,1 +1,3 @@
 # General_Election_Scrape
+
+It's hard to believe that it's finally Election Day. To reduce anxiety while watching results, it would be great to have poll closing times and key races to watch by state all in one place. We've scraped information from FiveThirtyEight (https://projects.fivethirtyeight.com/election-results-timing/) using scrapy and css, converted the Selector lists to dataframes, cleaned where necessary, including using .string, .split, and .get functions for string columns, and created a concatenated dataframe. Hopefully, it will help me avoid stress-binging 8-packs of Ferrero Rocher.
